@@ -1,0 +1,22 @@
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 0.3rem;
+  background-color: transparent;
+  border: 3px solid var(--txt-color);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  scale: 1;
+  z-index: 998;
+}
+
+.cursor.resizable {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: transparent;
+  border: 4px solid var(--txt-color);
+}
+
+.cursor.resizable:hover {
+  transform: scale(1.5);
+  background-color: transparent;
+}
