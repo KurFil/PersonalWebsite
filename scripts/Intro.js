@@ -3,4 +3,4 @@ setTimeout(() => {
     setTimeout(() => {
       document.querySelector('.intro-container').remove();
     }, 1000);
-  }, 1100);
+  }, 1000);

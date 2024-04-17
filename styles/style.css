@@ -70,8 +70,8 @@ body {
 }
 
 .home-img img {
-  width: 400px;
-  height: 400px;
+  width: 16vw;
+  height: 16vw;
   border: solid 5px var(--txt-color);
   border-radius: 50%;
   margin-right: -100px;
@@ -81,7 +81,7 @@ body {
 }
 
 .home-content {
-  max-width: 590px;
+  max-width: 25vw;
 }
 
 .home-content h3 {
@@ -277,6 +277,11 @@ body {
   }
 }
 
+#countdown {
+  z-index: 1;
+  font-size: 16px;
+  color: var(--txt-color);
+}
 
 
 #textColorPicker {
