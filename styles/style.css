@@ -1,4 +1,4 @@
-9@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --txt-color: #919191;
@@ -309,20 +309,20 @@ body {
   background-color: transparent;
 }
 
-/* For Mobile */
+
 
 .messageformobile {
   position: fixed;
   top: 50%;
   left: 50%;
-  border: solid white 5px;
-  font-weight: bold;
   transform: translate(-50%, -50%);
-  background-color: #919191;
+  z-index: 1;
+  border: solid #919191 5px;
+  font-weight: bold;
+  background-color: #181C1C;
   text-align: center;
-  color: white;
+  color: #aaaaaa;
   padding: 20px;
   border-radius: 10px;
   font-size: 24px;
-  z-index: 1;
 }

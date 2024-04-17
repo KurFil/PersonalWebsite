@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>KurFil</title>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <link rel="icon" type="image/x-icon" href="image/favicon.png">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/styleIntro.css">
@@ -19,10 +20,11 @@
   </style>
   <body>
 
-    <div class="messageformobile">
-      This page is not available on mobile devices yet.
+    <div class="messageformobile" id="mobile-typing">
+      This page is not available on mobile devices yet
+      <br>Written by KurFil.
     </div>
-
+    
     <div class="lines" style="z-index: 0;">
       <div class="line"></div>
       <div class="line"></div>
@@ -47,4 +49,14 @@
     </div>
 
   </body>
+
+  <script>
+    new TypeIt("#mobile-typing", {
+      lifeLike: true,
+      speed: 100,
+      cursorChar: ""
+    })
+    .pause(5000)
+    .go();
+  </script>
 </html>
