@@ -10,7 +10,7 @@ function updateCountdown() {
   const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
   const countdownElement = document.getElementById('countdown');
-  countdownElement.innerHTML = `${days}d, ${hours}h, ${minutes}m, ${seconds}s`;
+  countdownElement.innerHTML = `🎂${days}d, ${hours}h, ${minutes}m, ${seconds}s`;
 }
 
 setInterval(updateCountdown, 1000);
