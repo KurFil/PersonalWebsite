@@ -281,6 +281,13 @@ body {
   z-index: 1;
   font-size: 0.6vw;
   color: var(--txt-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.countdown-and-cake {
+  display: flex;
+  align-items: center;
+  color: var(--txt-color);
 }
 
 
